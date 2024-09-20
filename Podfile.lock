@@ -1,0 +1,57 @@
+PODS:
+  - OneSignal/OneSignal (5.2.4):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalExtension
+    - OneSignal/OneSignalLiveActivities
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalOutcomes
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalCore (5.2.4)
+  - OneSignal/OneSignalExtension (5.2.4):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalOutcomes
+  - OneSignal/OneSignalInAppMessages (5.2.4):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalOutcomes
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalLiveActivities (5.2.4):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalLocation (5.2.4):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalNotifications (5.2.4):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalExtension
+    - OneSignal/OneSignalOutcomes
+  - OneSignal/OneSignalOSCore (5.2.4):
+    - OneSignal/OneSignalCore
+  - OneSignal/OneSignalOutcomes (5.2.4):
+    - OneSignal/OneSignalCore
+  - OneSignal/OneSignalUser (5.2.4):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalOutcomes
+
+DEPENDENCIES:
+  - OneSignal/OneSignal (< 6.0, >= 5.0.0)
+  - OneSignal/OneSignalInAppMessages (< 6.0, >= 5.0.0)
+  - OneSignal/OneSignalLocation (< 6.0, >= 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - OneSignal
+
+SPEC CHECKSUMS:
+  OneSignal: f804466dc7afd3645b0838d10c6b7616d574af1d
+
+PODFILE CHECKSUM: afbcc368af0ab8da122ebb575115ff613be683a9
+
+COCOAPODS: 1.15.2
